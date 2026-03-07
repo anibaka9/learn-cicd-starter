@@ -1,0 +1,17 @@
+# flyctl launch added from .gitignore
+**/out
+**/.env
+**/learn-cicd-starter
+**/notely
+
+# flyctl launch added from vendor/github.com/go-chi/chi/.gitignore
+vendor/github.com/go-chi/chi/**/.idea
+vendor/github.com/go-chi/chi/**/*.sw?
+vendor/github.com/go-chi/chi/**/.vscode
+
+# flyctl launch added from vendor/github.com/joho/godotenv/.gitignore
+vendor/github.com/joho/godotenv/**/.DS_Store
+
+# flyctl launch added from vendor/nhooyr.io/websocket/.gitignore
+vendor/nhooyr.io/websocket/**/websocket.test
+fly.toml
