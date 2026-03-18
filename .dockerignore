@@ -2,7 +2,6 @@
 **/out
 **/.env
 **/learn-cicd-starter
-**/notely
 
 # flyctl launch added from vendor/github.com/go-chi/chi/.gitignore
 vendor/github.com/go-chi/chi/**/.idea
