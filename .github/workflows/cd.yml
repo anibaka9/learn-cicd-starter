@@ -22,7 +22,7 @@ jobs:
         run: ./scripts/buildprod.sh
 
       - name: Setup slyctl
-      - uses: superfly/flyctl-actions/setup-flyctl@master
+        uses: superfly/flyctl-actions/setup-flyctl@master
 
       - name: Depoloy to fly
         run: flyctl deploy --remote-only
